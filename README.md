@@ -1,7 +1,6 @@
-# hospmgmt
-A simple hospital management system built with CodeIgniter and SQL
+# A simple hospital management system built with CodeIgniter and SQL
 
-Hospital has many patients.  Each Patient is identified by a patient id. The other information that are needed to store in the database regarding patient are name, username, address (House no., Street, District), phone number, mobile number, email, password, and status(current/previous). All these information are stored in PatientInfo. A patient is associated with exactly one doctor.
+Hospital has many patients. Each Patient is identified by a patient id. The other information that are needed to store in the database regarding patient are name, username, address (House no., Street, District), phone number, mobile number, email, password, and status(current/previous). All these information are stored in PatientInfo. A patient is associated with exactly one doctor.
 
 The hospital has many blocks identified by block number. The descriptive attributes for each ward are type, number of beds and doctor in charge of the ward. 
 
@@ -15,4 +14,4 @@ A patient is given a prescription by zero or more of his doctors. Similarly a do
 
 Doctors are scheduled to visit their patients on certain times. A doctor can visit zero or more patients; similarly, a patient can have visit from zero or more of his doctor(s). These information are saved in a relationship called PatientScheduleList.
 
-A patient and a Block one-one
+A patient and a Block has a one-one relationship.
